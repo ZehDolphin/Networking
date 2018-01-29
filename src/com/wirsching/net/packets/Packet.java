@@ -11,6 +11,12 @@ import java.util.Set;
 
 public class Packet {
 
+	
+	public static final String PACKET_CONNECT = "packet_connected";
+	public static final String PACKET_DISCONNECT = "packet_disconnected";
+	
+	
+	
 	/**
 	 * This is a unique packet id. <br> 
 	 */

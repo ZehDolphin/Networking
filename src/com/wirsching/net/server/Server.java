@@ -86,8 +86,12 @@ public class Server extends Thread {
 			
 			switch (p.getID()) { 
 			
-			case "packet_connected":
+			case Packet.PACKET_CONNECT:
 				connectionHandler.connected(p);
+				break;
+				
+			case Packet.PACKET_DISCONNECT:
+				connectionHandler.disconnected(p);
 				break;
 			
 			default:

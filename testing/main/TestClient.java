@@ -29,7 +29,7 @@ public class TestClient {
 			}
 			
 			@Override
-			public void disconnected() {
+			public void disconnected(Packet packet) {
 				
 			}
 			

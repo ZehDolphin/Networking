@@ -25,7 +25,7 @@ public class TestServer {
 			}
 			
 			@Override
-			public void disconnected() {
+			public void disconnected(Packet packet) {
 				
 			}
 			
